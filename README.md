@@ -1,8 +1,8 @@
 # paypay-sample-ecommerce-backend-java
 
 [![License](https://img.shields.io/:license-apache-orange.svg)](https://opensource.org/licenses/Apache-2.0)
-![LGTM Grade](https://img.shields.io/lgtm/grade/java/github/paypay/paypay-sample-ecommerce-backend-java)
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/paypay/paypay-sample-ecommerce-backend-java)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/paypay/paypay-sample-ecommerce-backend-java.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/paypay/paypay-sample-ecommerce-backend-java/context:java)
+[![Maintainability](https://api.codeclimate.com/v1/badges/50e89180164f39e1d933/maintainability)](https://codeclimate.com/github/paypay/paypay-sample-ecommerce-backend-java/maintainability)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2742c69c04540a988002f31c644f03b)](https://www.codacy.com/gh/paypay/paypay-sample-ecommerce-backend-java/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=paypay/paypay-sample-ecommerce-backend-java&amp;utm_campaign=Badge_Grade)
 [![BCH compliance](https://bettercodehub.com/edge/badge/paypay/paypay-sample-ecommerce-backend-java?branch=master)](https://bettercodehub.com/)
 
