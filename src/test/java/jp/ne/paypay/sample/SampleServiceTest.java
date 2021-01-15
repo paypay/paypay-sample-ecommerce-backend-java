@@ -1,6 +1,7 @@
 package jp.ne.paypay.sample;
 
 import jp.ne.paypay.ApiClient;
+import jp.ne.paypay.ApiException;
 import jp.ne.paypay.api.PaymentApi;
 import jp.ne.paypay.model.MerchantOrderItem;
 import jp.ne.paypay.model.MoneyAmount;
@@ -83,7 +84,7 @@ class SampleServiceTest {
 
 	@Test
 	@DisplayName("Update API Client details")
-	void updateApiClientTest() {
+	void updateApiClientTest() throws ApiException {
 		Mockito.when(env.getProperty(Mockito.anyString())).thenReturn("DummyKeys");
 		String result = sampleService.updateApiClient(new ApiClient());
 		Assertions.assertEquals(result,"Success");
@@ -91,7 +92,7 @@ class SampleServiceTest {
 
 	@Test
 	@DisplayName("No Api Client details provided")
-	void updateNoApiClientTest() {
+	void updateNoApiClientTest() throws ApiException {
 		String result = sampleService.updateApiClient(new ApiClient());
 		Assertions.assertEquals(result,"No API Key/Secret set");
 	}
