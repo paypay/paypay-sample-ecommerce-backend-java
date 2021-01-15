@@ -25,7 +25,7 @@ public class SampleService {
     @Autowired
     private Environment env;
 
-    public String updateApiClient(ApiClient apiClient){
+    public String updateApiClient(ApiClient apiClient) throws ApiException {
         String apiKey = env.getProperty("API_KEY");
         String apiSecret = env.getProperty("API_SECRET");
         String assumeMerchantKey = env.getProperty("MERCHANT_KEY");
