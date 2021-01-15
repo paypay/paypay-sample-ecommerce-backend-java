@@ -63,7 +63,7 @@ public class SampleController {
 
     @GetMapping("/order-status/{merchantId}")
     @ResponseBody
-    public ResponseEntity<?> getPaymentStatus(@PathVariable String merchantId) {
+    public ResponseEntity<?> getPaymentStatus(@PathVariable String merchantId) throws ApiException {
         String result = sampleService.updateApiClient(apiClient);
         if(!"Success".equals(result)){
             return new ResponseEntity<>(result, HttpStatus.BAD_REQUEST);
