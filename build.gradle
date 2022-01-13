@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-	compile "jp.ne.paypay:paypayopa:1.0.3"
+	compile "jp.ne.paypay:paypayopa:1.0.5"
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation('org.apache.commons:commons-lang3')
 	implementation 'com.dyngr:polling:1.1.3'
